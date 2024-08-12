@@ -39,3 +39,30 @@ section#telefone{
     background: url(../pacote-d013/imagens/frame-iphone.png);
     background-repeat: no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    top: 78px;
+    left: 22px;
+    height: 471px;
+    width: 269px;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+    box-sizing: border-box;
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.651);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s;
+}
